@@ -1,0 +1,134 @@
+.content{
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0 30px;
+}
+.navb{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  transition: all 0.3s ease;
+  background: rgba(0,0,0, 0);
+}
+.navb.sticky{
+  background: rgba(0,0,0, 0.7);
+}
+.navb .content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navb .menu-list{
+  display: inline-flex;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-list li.items{
+  margin-top: 10px;
+
+}
+
+.menu-list li {
+  list-style: none;
+}
+
+.menu-list li.items a{
+  color: #fff;
+  font-size: 19px;
+  font-family: 'Alef',sans-serif;
+  margin-left: 30px;
+  font-weight: 500;
+  padding-left: auto;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.menu-list li.items a:hover{
+  color: #47f575;
+}
+
+.menu-list li a.active {
+  border-bottom: 3px solid #47f575;
+}
+
+li.nav-item a:hover{
+  background: #000;
+}
+
+li.nav-item a{
+  font-size: 20px;
+  margin-top: 70%;
+  color: #fff;
+  text-align: right;
+}
+
+.soc {
+  display: inline-flex;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.nav>li.nav-item>a:hover {
+  background-color: #0000 !important;
+}
+
+.menu-list li.nav-item a:hover{
+  background-color: #0000 !important;
+}
+
+.navf {
+  margin-top: 10px;
+}
+
+.about{
+  padding: 30px 0;
+}
+.about .title{
+  font-size: 38px;
+  font-weight: 700;
+}
+.about p{
+  padding-top: 20px;
+  text-align: justify;
+}
+.icon{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.logo {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.logo-in {
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.logo-out {
+  display: none;
+  margin-left: 50px;
+}
+
+.menu-list .cancel-btn{
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.banners {
+
+  height: 80px;
+  background-color: #0055A3;
+}
+/* Dropdown Button */
